@@ -1,0 +1,170 @@
+/******************
+BASE
+******************/
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/******************
+LAYOUTS
+******************/
+
+
+/******************
+DISPLAY
+******************/
+/* Header styles */
+header {
+    display: flex;
+    justify-content: space-between;
+    overflow: hidden;
+    position: relative;
+    margin: 10px 3%;
+}
+.navbar-container {
+    list-style: none;
+    padding: 0 10px;
+    display: none;
+    transition: opacity 0.3s ease;
+    opacity: 0;
+}
+.navbar-container.menu-open {
+    display: block;
+    opacity: 1;
+}
+.navbar-item {
+    width: 100%;
+    text-align: center;
+    background-color: aqua;
+}
+.business-name {
+    font-family: "Marck Script", cursive;
+    font-size: 2.5rem;
+    padding-left: 5px;
+}
+i {
+    zoom: 250%;
+    color: black;
+}
+/* Main styles */
+.top-section {
+    background: linear-gradient(#7A6465 , #A69797, #7A6465);
+    height: 300px;
+    padding: 30px 5%;
+}
+h1, .tagline-p {
+    color: white;
+    width: 100%;
+    text-align: center;
+}
+h1 {
+    font-size: 4.0rem;
+    font-weight: 100;
+    font-family: "Bodoni Moda", serif;
+}
+.tagline-p {
+    font-size: 1.0rem;
+    font-weight: 100;
+    text-transform: uppercase;
+    padding: 10px 0 0 0;
+}
+/* Services offered styles */
+.service-container {
+    margin: 35px 5%;
+}
+.service-img-placeholder {
+    width: 70px;
+    height: 70px;
+    margin: 0 auto;
+    background-color: lightgray;
+    border-radius: 8px;
+}
+.service-title, .service-about {
+    text-align: center;
+}
+.service-title {
+    font-size: 1.3rem;
+    font-weight: 600;
+    font-family: Arial, Helvetica, sans-serif;
+    text-transform: uppercase;
+    padding: 20px 20px 10px 20px;
+}
+.service-about {
+    font-size: 1.2rem;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 0px 20px;
+}
+/* Momentum styles */
+.momentum-section {
+    background-color: rgb(234, 235, 236);
+    height: 600px;
+}
+.momentum-img-placeholder, .lookbook-img-placeholder {
+    width: 65%;
+    height: 200px;
+    border-radius: 10px;
+    margin: 0 auto 20px auto;
+}
+.momentum-img-placeholder {
+    background-color: white;
+}
+.lookbook-img-placeholder {
+    background-color: lightgray;
+}
+.section-headers {
+    font-size: 2.0rem;
+    text-align: center;
+    text-transform: uppercase;
+    padding: 30px 0 20px 0;
+    font-family: "Bodoni Moda", serif;
+}
+.read-more-btn-container, .book-appointment-btn-container {
+    display: flex;
+    justify-content: center;
+}
+.read-more-btn-container {
+    padding: 20px;
+}
+.book-appointment-btn-container {
+    padding: 0 20px 30px 20px;
+}
+.read-more-btn {
+    width: 90%;
+    height: 45px;
+    background-color: black;
+    color: white;
+    border: none;
+    font-size: 1.2rem;
+}
+/* Footer styles */
+footer {
+    height: 400px;
+    background-color: rgb(234, 235, 236);
+}
+.address-business-name, .address-business-address, .footer-li {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.2rem;
+}
+.address-business-name {
+    font-weight: bold;
+    font-style: normal;
+    padding-top: 20px;
+}
+.address-business-address {
+    font-style: normal;
+}
+.credit-p {
+    text-align: center;
+    padding-top: 40px;
+}
+footer ul {
+    padding: 30px 0 10px 0;
+}
+.footer-li {
+    padding-top: 10px;
+}
