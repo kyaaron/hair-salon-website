@@ -19,23 +19,48 @@
 
 </head>
 <body>
-    <header>
+    <header class="mobile-header">
         <p class="business-name">Ayesha.</p>
+
+        <!--<nav>
+            <ul class="navbar-container">
+                <li class="navbar-item">Home</li>
+                <li class="navbar-item">About</li>
+                <li class="navbar-item">Services</li>
+                <li class="navbar-item">Lookbook</li>
+                <li class="navbar-item">News</li>
+                <li class="navbar-item">Contact</li>
+            </ul>
+        </nav> -->
 
         <a href="javascript:void(0);" class="hamburger-icon" aria-expanded="false" aria-controls="navbar-menu">
             <i class="fa fa-bars"></i>
         </a>
 
     </header>
+    <header class="desktop-header">
+        <p class="business-name">Ayesha.</p>
+
+        <nav class="desktop-item">
+            <ul class="desktop-navbar-container">
+                <li class="desktop-navbar-item">Home</li>
+                <li class="desktop-navbar-item">About</li>
+                <li class="desktop-navbar-item">Services</li>
+                <li class="desktop-navbar-item">Lookbook</li>
+                <li class="desktop-navbar-item">News</li>
+                <li class="desktop-navbar-item">Contact</li>
+            </ul>
+        </nav>
+    </header>
     <!-- Putting navbar on its own to have it lower than menu for now-->
-    <nav>
-        <ul class="navbar-container">
-            <li class="navbar-item">Home</li>
-            <li class="navbar-item">About</li>
-            <li class="navbar-item">Services</li>
-            <li class="navbar-item">Lookbook</li>
-            <li class="navbar-item">News</li>
-            <li class="navbar-item">Contact</li>
+    <nav class="mobile-nav">
+        <ul class="mobile-navbar-container">
+            <li class="mobile-navbar-item">Home</li>
+            <li class="mobile-navbar-item">About</li>
+            <li class="mobile-navbar-item">Services</li>
+            <li class="mobile-navbar-item">Lookbook</li>
+            <li class="mobile-navbar-item">News</li>
+            <li class="mobile-navbar-item">Contact</li>
         </ul>
     </nav>
     <main>
@@ -65,11 +90,17 @@
         </section>
         <section class="momentum-section">
             <h2 class="section-headers">Make your own momentum</h2>
-            <div class="momentum-img-placeholder"></div>
-            <p class="service-about">Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus dolorum quasi fuga est, ipsam tenetur delectus ea, ad aliquam rem laudantium a eveniet eligendi sunt molestiae, odio repudiandae repellendus. Voluptatem.</p>
-            <div class="read-more-btn-container">
-                <button class="read-more-btn">Read More</button>
+            <div class=momentum-section-content-container>
+                <div class="momentum-img-placeholder"></div>
+                <div class="momentum-section-text-container">
+                    <p class="service-about">Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus dolorum quasi fuga est, ipsam tenetur delectus ea, ad aliquam rem laudantium a eveniet eligendi sunt molestiae, odio repudiandae repellendus. Voluptatem.</p>
+                    <div class="read-more-btn-container">
+                        <button class="read-more-btn">Read More</button>
+                    </div>
+                </div>
             </div>
+            
+            
         </section>
         <section class="lookbook-section">
             <h2 class="section-headers">Our lookbook</h2>

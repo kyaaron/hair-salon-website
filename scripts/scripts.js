@@ -1,4 +1,4 @@
-const navbarContainer = document.querySelector(".navbar-container");
+const navbarContainer = document.querySelector(".mobile-navbar-container");
 const hamburgerIcon = document.querySelector(".hamburger-icon");
 
 // Event listener to open/close the navbar menu
